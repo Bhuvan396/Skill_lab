@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>College Project Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎓 College Project Showcase Portal</h1>
+    <input type="text" id="searchBar" placeholder="Search projects...">
+    <select id="departmentFilter">
+      <option value="all">All Departments</option>
+      <option value="cse">CSE</option>
+      <option value="ece">ECE</option>
+      <option value="mech">MECH</option>
+    </select>
+  </header>
+
+  <main id="projectContainer">
+    <!-- Project Cards -->
+    <div class="project-card" data-department="cse">
+      <h2>AI-Based Chatbot</h2>
+      <p><strong>Team:</strong> Arjun, Neha</p>
+      <p><strong>Department:</strong>CSE</p>
+      <p><strong>Tools:</strong> Python, NLP.js</p>
+    </div>
+
+    <div class="project-card" data-department="ece">
+      <h2>IoT Smart Helmet</h2>
+      <p><strong>Team:</strong> Ravi, Priya</p>
+      <p><strong>Department:</strong>ECE</p>
+      <p><strong>Tools:</strong> Arduino, Sensors</p>
+    </div>
+
+    <div class="project-card" data-department="mech">
+      <h2>Solar-Powered Trike</h2>
+      <p><strong>Team:</strong> Sita, Karan</p>
+      <p><strong>Department:</strong>MECH</p>
+      <p><strong>Tools:</strong> CAD, Solar Cells</p>
+    </div>
+
+    <div class="project-card" data-department="cse">
+      <h2>Placement Tracker App</h2>
+      <p><strong>Team:</strong> Meena, Rohit</p>
+      <p><strong>Department:</strong>CSE</p>
+      <p><strong>Tools:</strong> HTML, CSS, JS</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
